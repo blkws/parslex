@@ -41,37 +41,37 @@ Eventually, the Parsl blockchain will build a decentralized cannabis market wher
 
 ![Alt text](https://github.com/nikhilvc1990/AgriChain/blob/master/screenshots/Farmer%20Registration%20Page.PNG?raw=true "Farmer Registration")
 
-The above figure shows the registration form for the g in the supply chain application. The entered details are stored directly onto the blockchain. The underlying technology uses Truffle for the deployment and go-ethereum(geth) as the backend blockchain. We use the Web3 Javascript provider API to interact with the blockchain.
+The above figure shows the registration form for the grower in the supply chain appl. The entered details are stored directly onto the blockchain. The technology uses Truffle for the deployment and go-ethereum(geth) as the backend blockchain. We use the Web3 Javascript provider API to interact with the blockchain.
 
 ![Alt text](https://github.com/nikhilvc1990/AgriChain/blob/master/screenshots/Quality.PNG?raw=true "Grower Registration")
 
 The next page is for quality testing, here we can get the grower details by Grower Id. These details are stored as a structure using solidity code onto the blockchain. The Grower details are retrieved using a special data structure called mapping by Grower Id. 
 
-![Alt text](https://github.com/nikhilvc1990/AgriChain/blob/master/screenshots/View%20Blocks.PNG?raw=true "Quality Testing")
-This is the Quality Testing page.
-Here we can see the block details where the grower’s details are stored onto blockchain. The ‘Approve Details’ will approve the details of the grower.
+![Alt text](https://github.com/blkws/parslex/blob/master/screenshots/7a52caeaa76fea7caacb740aaf425124--ios-ui-ui-ux.jpg?raw=true "Quality Testing")
+This is the Quality page. The Details button click will redirect to this Product/Strand details page. This is also part of the testing where we enter the grade/shelf, price, grow date and expiry date. These details are also stored in the blockchain as a structure.
 
-![Alt text](https://github.com/nikhilvc1990/AgriChain/blob/master/screenshots/QualityTestingProduct.PNG?raw=true "Product Testing")
 
-Approve Details button click will redirect to this Product details page. This is also part of the quality testing where we enter the grade/shelf, price, grow date and expiry date. These details are also stored in the blockchain as a structure.
+![Alt text](https://github.com/blkws/parslex/blob/master/screenshots/7a52caeaa76fea7caacb740aaf425124--ios-ui-ui-ux.jpg?raw=true "Product Testing")
+Here we can see the block details where the Cannabis details and pricing are stored onto blockchain. The Cannabis traits will be approved by the details of the grower.
 
 ![Alt text](https://github.com/nikhilvc1990/AgriChain/blob/master/screenshots/CustomerDetails.PNG?raw=true "Customer Details")
 
 This is the customer page where the customer can check the customer details and status of the quality testing of his cannabis purchase. The customer has to enter the Grower id to see the details. These customer details are retrieved from the blockchain.
 
-![Alt text](https://github.com/nikhilvc1990/AgriChain/blob/master/screenshots/Micro-Finance.PNG?raw=true "Micro-Finance")
+![Alt text](https://github.com/blkws/parslex/blob/master/screenshots/crypto.png?raw=true "Micro-Finance")
 
-The micro-finance form enables any user to fund a grower. The funding is done by providing the grower public id and the amount.
+The Blockchain/Microfinance form enables any user to fund a grower. The funding is done by providing the grower public id and the amount.
 
 # System Architecture
 
+![Alt text](https://github.com/blkws/parslex/blob/master/screenshots/weed-ui-kit-roccano.jpg?raw=true "App Chart")
+Sign Up should be similar to the UI Kit, with the user email and password, the next registration page would be similar to the Grower registration. 
 
-![Alt text](https://github.com/nikhilvc1990/AgriChain/blob/master/screenshots/AgriChain.jpg?raw=true "Flow Chart")
 
 
+Supported and Based on an idea by - 
 
-Based on an idea by - 
+AgriCoin - Indian Institute Of Information Technology and Management - Kerala
 
-Indian Institute Of Information Technology and Management - Kerala
-
+Images supplied from Google/Pinterest/Sketch/Dribble
 
