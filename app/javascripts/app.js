@@ -183,7 +183,7 @@ function get(){
 
 var metaget = StructStorage.deployed();
 
-var fid = document.getElementById("cid1").value;
+var cid = document.getElementById("cid1").value;
 
 setStatus("Initiating transaction... (please wait)");
 
