@@ -28,48 +28,37 @@ contract StructStorage {
     function getBalance(address addr) returns(uint) {
 		return balances[addr];
 	}
-struct farmer {
+struct client {
    
-    bytes fid;
-    bytes32 fname;
-    bytes32 loc;
-    bytes32 crop;
+    bytes cid;
+    bytes32 cname;
+    bytes32 strand;
     uint256 contact;
     uint quantity;
     uint exprice;
 }
 
-struct lot {
-
-    bytes lotno;
-    bytes grade;
-    uint mrp;
-    bytes32 testdate;
-    bytes32 expdate;
-}
 
 address public tester;
 address owner;
 
-mapping (bytes => farmer) f1;
+mapping (bytes => client) f1;
 farmer[] public fm;
 
-mapping (bytes => lot) l1;
-lot[] public l;
 
 
 
-function produce(bytes id, bytes32 name, bytes32 loc, bytes32 cr, uint256 con, uint q, uint pr) {
+function produce(bytes id, bytes32 name, bytes32 cr, uint256 con, uint q, uint pr) {
                
-        var fnew = farmer(id,name,loc,cr,con,q,pr);
+        var fnew = farmer(id,name,cr,con,q,pr);
         f1[id] = fnew;
         fm.push(fnew);
         s++;
   
 }
     
- function getproduce(bytes j) constant returns(bytes,bytes32,bytes32,bytes32,uint256,uint,uint) {
-        return (f1[j].fid,f1[j].fname,f1[j].loc,f1[j].crop,f1[j].contact,f1[j].quantity,f1[j].exprice);
+ function getcanna(bytes j) constant returns(bytes,bytes32,bytes32,bytes32,uint256,uint,uint) {
+        return (f1[j].cid,f1[j].cname,f1[j].strand,f1[j].contact,f1[j].quantity,f1[j].exprice);
     }
  function quality(bytes ll, bytes g, uint p, bytes32 tt, bytes32 e) {
     
@@ -80,7 +69,7 @@ function produce(bytes id, bytes32 name, bytes32 loc, bytes32 cr, uint256 con, u
   
  }  
  function getquality(bytes k) constant returns(bytes,bytes,uint,bytes32,bytes32) {
-     return(l1[k].lotno,l1[k].grade,l1[k].mrp,l1[k].testdate,l1[k].expdate);
+     return(l1[k].grade,l1[k].mrp,l1[k].selldate,l1[k].expdate);
      
  }
 }
