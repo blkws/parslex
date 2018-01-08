@@ -30,13 +30,13 @@ The important advantages are:
 
 5.	The growers can build consumer loyalty based on the quality of product and type of grow (indoor, outdoor, hydroponic, etc.), which could eventually provide them better profits.
 
-6.	Even the low income group consumers can fund the crops based on their needs and can escape from the market fluctuations of the product prices.
+6.	Inventory control to provide the growers options to decide which grade strands are worth being tracked/watched. USING NFC/RFID tools in app (pictured)
 
-7.	Organic growing and quality measurement can be assured with frequent quality checking by Cannabis experts. The immutable ledger ensures transparency and reduces the chances of fraud.
+7.	Organic grows and quality measurement can be assured with frequent quality checking by Cannabis experts. The immutable ledger ensures transparency and reduces the chances of fraud.
 
 8.	Smart contracts can provide a better agreement between the growers and consumers in case of discrepancies arising with regard to natural disasters, climate changes or other crop loss situations
 
-Eventually, the Parsl blockchain will build a decentralized cannabis market where the growers can easily raise fund for cultivation along with the customers in his hand for purchasing his strands. On the other hand the customers can ensure quality products at better price with an early investment on the crops. Both the growers and farmers could yield profit and build a loyal environment for future cooperation. The best grower will get the maximum profit on the produce and the best consumer can ensure good quality food for his dispensary and other business ventures.
+Eventually, the Parsl blockchain will build a decentralized cannabis market where the growers can easily raise fund for cultivation along with the customers in his hand for purchasing his strands. On the other hand the customers can ensure quality products at better price with an early investment on the strand. Both the growers and farmers could yield profit and build a loyal environment for future cooperation. The best grower will get the maximum profit on the produce and the best consumer can ensure good quality food for his dispensary and other business ventures.
 
 
 ![Alt text](https://github.com/nikhilvc1990/AgriChain/blob/master/screenshots/Farmer%20Registration%20Page.PNG?raw=true "Farmer Registration")
@@ -45,7 +45,7 @@ The above figure shows the registration form for the grower in the supply chain 
 
 ![Alt text](https://github.com/nikhilvc1990/AgriChain/blob/master/screenshots/Quality.PNG?raw=true "Grower Registration")
 
-The next page is for quality testing, here we can get the grower details by Grower Id. These details are stored as a structure using solidity code onto the blockchain. The Grower details are retrieved using a special data structure called mapping by Grower Id. 
+The next page is for quality testing, here we can get the grower details by Grower Id. These details are stored as a structure using solidity code onto the blockchain. The Grower details are retrieved using special data structure, mapping by Grower Id. 
 
 ![Alt text](https://github.com/blkws/parslex/blob/master/screenshots/7a52caeaa76fea7caacb740aaf425124--ios-ui-ui-ux.jpg?raw=true "Quality Testing")
 This is the Quality page. The Details button click will redirect to this Product/Strand details page. This is also part of the testing where we enter the grade/shelf, price, grow date and expiry date. These details are also stored in the blockchain as a structure.
@@ -60,12 +60,12 @@ This is the customer page where the customer can check the customer details and 
 
 ![Alt text](https://github.com/blkws/parslex/blob/master/screenshots/crypto.png?raw=true "Micro-Finance")
 
-The Blockchain/Microfinance form enables any user to fund a grower. The funding is done by providing the grower public id and the amount.
+The Blockchain/Microfinance form enables any user to fund a grower. The funding is done by providing the grower public id and the amount. RFID/NFC for coins and Strand from grower
 
 # System Architecture
 
 ![Alt text](https://github.com/blkws/parslex/blob/master/screenshots/weed-ui-kit-roccano.jpg?raw=true "App Chart")
-Sign Up should be similar to the UI Kit, with the user email and password, the next registration page would be similar to the Grower registration. 
+Sign Up should be similar to the UI Kit, with the user email and password, the next registration page would be similar to the Grower registration. The Grower page would show more info in relation to Grower ID/Retail location
 
 DESKTOP WOULD FOCUS ON MORE INVENTORY CONTROL. 
 LOCATION CODE TXT REMOVED FOR PRIVACY IN CODE
@@ -73,7 +73,7 @@ LOCATION CODE TXT REMOVED FOR PRIVACY IN CODE
 
 Supported and Based on an idea by - 
 
-AgriCoin - Indian Institute Of Information Technology and Management - Kerala
+AgriCoin/Indian Institute Of Information Technology and Management - Kerala
 
 Images supplied from Google/Pinterest/Sketch/Dribble
 
