@@ -386,22 +386,18 @@ var SolidityEvent = require("web3/lib/web3/event.js");
             "type": "uint256"
           }
         ],
-        "name": "fm",
+        "name": "cl",
         "outputs": [
           {
-            "name": "fid",
+            "name": "cid",
             "type": "bytes"
           },
           {
-            "name": "fname",
+            "name": "cname",
             "type": "bytes32"
           },
           {
-            "name": "loc",
-            "type": "bytes32"
-          },
-          {
-            "name": "crop",
+            "name": "strand",
             "type": "bytes32"
           },
           {
@@ -478,7 +474,7 @@ var SolidityEvent = require("web3/lib/web3/event.js");
             "type": "bytes32"
           },
           {
-            "name": "cr",
+            "name": "st",
             "type": "bytes32"
           },
           {
@@ -510,10 +506,6 @@ var SolidityEvent = require("web3/lib/web3/event.js");
         "name": "l",
         "outputs": [
           {
-            "name": "lotno",
-            "type": "bytes"
-          },
-          {
             "name": "grade",
             "type": "bytes"
           },
@@ -522,7 +514,7 @@ var SolidityEvent = require("web3/lib/web3/event.js");
             "type": "uint256"
           },
           {
-            "name": "testdate",
+            "name": "selldate",
             "type": "bytes32"
           },
           {
