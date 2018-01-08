@@ -41,7 +41,7 @@ Eventually, the Parsl blockchain will build a decentralized cannabis market wher
 
 ![Alt text](https://github.com/nikhilvc1990/AgriChain/blob/master/screenshots/Farmer%20Registration%20Page.PNG?raw=true "Farmer Registration")
 
-The above figure shows the registration form for the grower in the supply chain appl. The entered details are stored directly onto the blockchain. The technology uses Truffle for the deployment and go-ethereum(geth) as the backend blockchain. We use the Web3 Javascript provider API to interact with the blockchain.
+The above figure shows the registration form for the grower in the supply chain appl. The entered details are stored directly onto the blockchain. The technology uses Truffle for the deployment and go-ethereum(geth) as the backend blockchain. We use the Web3 Javascript API to interact with the blockchain.
 
 ![Alt text](https://github.com/nikhilvc1990/AgriChain/blob/master/screenshots/Quality.PNG?raw=true "Grower Registration")
 
@@ -67,6 +67,8 @@ The Blockchain/Microfinance form enables any user to fund a grower. The funding 
 ![Alt text](https://github.com/blkws/parslex/blob/master/screenshots/weed-ui-kit-roccano.jpg?raw=true "App Chart")
 Sign Up should be similar to the UI Kit, with the user email and password, the next registration page would be similar to the Grower registration. 
 
+DESKTOP WOULD FOCUS ON MORE INVENTORY CONTROL. 
+LOCATION CODE TXT REMOVED FOR PRIVACY IN CODE
 
 
 Supported and Based on an idea by - 
