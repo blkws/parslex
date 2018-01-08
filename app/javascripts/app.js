@@ -93,17 +93,17 @@ function set(){
 
 var metaset = StructStorage.deployed();
 
-var fid = document.getElementById("fid").value;
-var fname = document.getElementById("fname").value;
+var cid = document.getElementById("cid").value;
+var cname = document.getElementById("cname").value;
 var loc = document.getElementById("loc").value;
-var crop = document.getElementById("crop").value;
+var strand = document.getElementById("strand").value;
 var contact = parseInt(document.getElementById("contact").value);
 var quantity = parseInt(document.getElementById("quantity").value);
 var exprice = parseInt(document.getElementById("exprice").value);
 
 setStatus("Initiating transaction... (please wait)");
 
-metaset.produce( fid,fname,loc,crop,contact,quantity,exprice, {from: account,gas:400000}).then(function() {
+metaset.produce( cid,cname,loc,strand,contact,quantity,exprice, {from: account,gas:400000}).then(function() {
     
   setStatus("Transaction complete!");
   $("#sign-up-form").hide();
@@ -183,11 +183,11 @@ function get(){
 
 var metaget = StructStorage.deployed();
 
-var fid = document.getElementById("fid1").value;
+var fid = document.getElementById("cid1").value;
 
 setStatus("Initiating transaction... (please wait)");
 
-metaget.getproduce.call( fid, {from: account}).then(function(value) {
+metaget.getproduce.call( cid, {from: account}).then(function(value) {
   	
     
     var span_element2 = document.getElementById("getval2");
@@ -225,16 +225,15 @@ function setQ(){
 
 var metaset = StructStorage.deployed();
 
-var lotno = document.getElementById("lotno").value;
 var grade = document.getElementById("grade").value;
 var mrp = parseInt(document.getElementById("mrp").value);
-var testdate = document.getElementById("testdate").value;
+var grwdate = document.getElementById("grwdate").value;
 var expdate = document.getElementById("expdate").value;
 
 
 setStatus("Initiating transaction... (please wait)");
 
-metaset.quality( lotno,grade,mrp,testdate,expdate, {from: account,gas:400000}).then(function() {
+metaset.quality( grade,mrp,grwdate,expdate, {from: account,gas:400000}).then(function() {
   setStatus("Transaction complete!");
 	
   $("#sign-up-form").hide();
